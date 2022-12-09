@@ -8,7 +8,7 @@ let doc = document,
 const alphabet = {
     lowerCase: 'abcdefghijklmnopqrstuvwxyz',
     upperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-    symbols: "!@#$%^&*(){}[].,><?/\\|:;'\"",
+    symbols: "!@#$%^&*(){}[].,><?/\\|:;'\"+=-_`~",
     numbers: "0123456789",
     incSpacing: " ",
     excDuplicate: ""
