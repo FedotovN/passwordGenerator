@@ -50,6 +50,8 @@ function generatePassword(){
             if(option.id === "excDuplicate") excludeDuplicate = true
         }
     })
+    if(excludeDuplicate === true)
+        lengthInput.value <=26 ? lengthInput.value = lengthInput.value : lengthInput.value = 26
     for(let i = 0; i < lengthInput.value; i++){
         let s = currAlphabet[(Math.random() * (currAlphabet.length-1)).toFixed(0)]
         if(excludeDuplicate)
