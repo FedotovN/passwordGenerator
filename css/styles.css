@@ -84,6 +84,7 @@ body{
     width: 98.25%;
 }
 .settings_list{
+    white-space: nowrap;
     display: flex;
     flex-flow: column nowrap;
     margin-top: 20px;
