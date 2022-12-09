@@ -98,7 +98,6 @@ body{
 .settings_list ul li{
     width: calc(100%/2);
     height: 30%;
-    font-size: 14px;
     -moz-user-select: -moz-none;
     -o-user-select: none;
     -khtml-user-select: none;
@@ -151,6 +150,9 @@ button:active{
         position: absolute;
         top: -40px;
         color: #F4EDF8
+    }
+    .settings_list ul li{
+        font-size: 14px;
     }
     .value_input{
         position: absolute;
