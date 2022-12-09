@@ -142,3 +142,15 @@ button:active{
     opacity: .7;
     pointer-events: none;
 }
+@media(max-width: 750px) {
+    body{
+        font-size: 16px;
+    }
+    .container{
+        height: 500px;
+    }
+    button{
+        font-size: 16px;
+        height: 40px;
+    }
+}
