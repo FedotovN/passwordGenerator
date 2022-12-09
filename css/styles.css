@@ -23,6 +23,7 @@ body{
     text-align: center;
 }
 .container{
+    box-shadow: 0 0 10px #F4EDF8;
     position: relative;
     height: 600px;
     width: 520px;
