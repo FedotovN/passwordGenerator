@@ -23,7 +23,6 @@ body{
     text-align: center;
 }
 .container{
-    box-shadow: 0 0 10px #F4EDF8;
     position: relative;
     height: 600px;
     width: 520px;
@@ -44,7 +43,6 @@ body{
     width: 65%;
     padding: 22px;
     font-family: monospace;
-    text-shadow: 0 0 10px #413b4b;
 }
 .value{
     width: 90%;
